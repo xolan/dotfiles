@@ -7,3 +7,6 @@ ln -s $HOME/dotfiles/.vimrc $HOME/.vimrc
 
 ## Awesome
 # ln -s $HOME/dotfiles/awesome $HOME/.config/awesome
+
+## Sublime Text 2
+ln -s $HOME/dotfiles/sublime-text-2/Packages/User/Preferences.sublime-settings $HOME/.config/sublime-text-2/Packages/User/Preferences.sublime-settings
