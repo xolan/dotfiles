@@ -1,5 +1,5 @@
 ---------------------------
--- Default awesome theme --
+-- Solarized awesome theme --
 ---------------------------
 
 theme = {}
