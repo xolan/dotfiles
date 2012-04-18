@@ -377,6 +377,7 @@ client.add_signal("unfocus", function(c) c.border_color = beautiful.border_norma
 autorun = true
 autorunApps = { 
     "nm-applet",
+    "xrdb -merge ~/.Xresources",
     "setxkbmap no",
     "dropboxd",
 }
