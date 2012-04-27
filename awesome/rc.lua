@@ -71,7 +71,7 @@ layouts =
 tags = {}
 for s = 1, screen.count() do
     -- Each screen has its own tag table.
-    tags[s] = awful.tag({ "1 Term", "2 Dev", "3 Music", "4 Chat", "5 Web", "6 Misc" }, s, layouts[1])
+    tags[s] = awful.tag({ "1 ter", "2 dev", "3 ecd", "4 cht", "5 web", "6 msc" }, s, layouts[1])
 end
 -- }}}
 
@@ -377,7 +377,10 @@ client.add_signal("unfocus", function(c) c.border_color = beautiful.border_norma
 autorun = true
 autorunApps = { 
     "nm-applet",
-    "xrdb -merge ~/.Xresources",
+    "xrdb -merge /home/xolan/.Xresources",
+    "autocutsel -fork",
+    "autocutsel -selection PRIMARY -fork",
+    "export BROWSER=/usr/bin/google-chrome",
     "setxkbmap no",
     "dropboxd",
 }
