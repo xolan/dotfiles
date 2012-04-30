@@ -114,3 +114,5 @@ urxvt*termName:		rxvt-256color
 urxvt*font: 		xft:Terminus
 urxvt*boldFont: 	xft:Terminus
 urxvt*cursorColor:	S_yellow
+urxvt*shading:    30
+urxvt*transparent:true
