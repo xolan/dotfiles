@@ -36,45 +36,71 @@
 #define S_cyan          #2aa198
 #define S_green         #859900
 
-*background:            S_base03
-*foreground:            S_base00
-*fading:                40
-*fadeColor:             S_base03
-*cursorColor:           S_base1
-*pointerColorBackground:S_base01
-*pointerColorForeground:S_base1
+!*background:            S_base03
+!*foreground:            S_base00
+!*fading:                40
+!*fadeColor:             S_base03
+!*cursorColor:           S_base1
+!*pointerColorBackground:S_base01
+!*pointerColorForeground:S_base1
 
 !! black dark/light
-*color0:                S_base02
-*color8:                S_base03
+!*color0:                S_base02
+!*color8:                S_base03
 
 !! red dark/light
-*color1:                S_red
-*color9:                S_orange
+!*color1:                S_red
+!*color9:                S_orange
 
 !! green dark/light
-*color2:                S_green
-*color10:               S_base01
+!*color2:                S_green
+!*color10:               S_base01
 
 !! yellow dark/light
-*color3:                S_yellow
-*color11:               S_base00
+!*color3:                S_yellow
+!*color11:               S_base00
 
 !! blue dark/light
-*color4:                S_blue
-*color12:               S_base0
+!*color4:                S_blue
+!*color12:               S_base0
 
 !! magenta dark/light
-*color5:                S_magenta
-*color13:               S_violet
+!*color5:                S_magenta
+!*color13:               S_violet
 
 !! cyan dark/light
-*color6:                S_cyan
-*color14:               S_base1
+!*color6:                S_cyan
+!*color14:               S_base1
 
 !! white dark/light
-*color7:                S_base2
-*color15:               S_base3
+!*color7:                S_base2
+!*color15:               S_base3
+
+! thayer molokai inspired colors {{{
+*color0: #1b1d1e
+*color8: #505354
+*color1: #f92672
+*color9: #ff5995
+*color2: #82b414
+*color10: #b6e354
+*color3: #fd971f
+*color11: #feed6c
+*color4: #56c2d6
+*color12: #8cedff
+*color5: #8c54fe
+*color13: #9e6ffe
+*color6: #465457
+*color14: #899ca1
+*color7: #ccccc6
+*color15: #f8f8f2
+*background: #1b1d1e
+*foreground: #ccccc6
+*fading: 60
+*fadeColor: #1b1d1e
+!*cursorColor:           S_base1
+!*pointerColorBackground:S_base01
+!*pointerColorForeground:S_base1
+!}}}
 
 !! Xft
 Xft.antialias:		true
