@@ -8,8 +8,12 @@
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 8,
+	"font_size": 12.0,
 	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
 	"indent_guide_options":
 	[
 		"draw_active"
