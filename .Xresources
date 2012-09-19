@@ -1,53 +1,23 @@
-!TomorrowNight
-#define t_background        #1d1f21
-#define t_current_line      #282a2e
-#define t_selection         #373b41
-#define t_foreground        #c5c8c6
-#define t_comment           #969896
-#define t_red               #cc6666
-#define t_orange            #de935f
-#define t_yellow            #f0c674
-#define t_green             #b5bd68
-#define t_aqua              #8abeb7
-#define t_blue              #81a2be
-#define t_purple            #b294bb
-
-
-*.foreground:   t_foreground
-*.background:   t_background
-*.cursorColor:  #aeafad
-
-! Black / Grey
-*.color0:       #000000
-*.color8:       #666666
-
-! Red / Bright Red
-*.color1:       t_red
-*.color9:       #FF3334
-
-! Green + Bright Green
-*.color2:       t_green
-*.color10:      #9ec400
-
-! Yellow (Orange) + Bright Yellow (Yellow)
-*.color3:       t_orange
-*.color11:      t_yellow
-
-! Blue + Bright Blue
-*.color4:       t_blue
-*.color12:      t_blue
-
-! Magenta (Purple) + Bright Magenta
-*.color5:       t_purple
-*.color13:      #b777e0
-
-! Cyan (Aqua) + Bright Cyan
-*.color6:       t_aqua
-*.color14:      #54ced6
-
-! Light Grey (Selection) + White (Current Line)
-*.color7:       t_selection
-*.color15:      t_current_line
+! Molokai theme
+*urxvt*background: #101010
+*urxvt*foreground: #d0d0d0
+*urxvt*cursorColor: #d0d0d0
+*urxvt*color0: #101010
+*urxvt*color1: #960050
+*urxvt*color2: #66aa11
+*urxvt*color3: #c47f2c
+*urxvt*color4: #30309b
+*urxvt*color5: #7e40a5
+*urxvt*color6: #3579a8
+*urxvt*color7: #9999aa
+*urxvt*color8: #303030
+*urxvt*color9: #ff0090
+*urxvt*color10: #80ff00
+*urxvt*color11: #ffba68
+*urxvt*color12: #5f5fee
+*urxvt*color13: #bb88dd
+*urxvt*color14: #4eb4fa
+*urxvt*color15: #d0d0d0
 
 !! Xft
 Xft.antialias:		true

@@ -10,4 +10,8 @@ filetype plugin indent on
 set background=dark
 set nocompatible
 set modeline
-colorscheme solarized
+
+set number
+set ruler
+set shiftwidth=4
+set tabstop=4
