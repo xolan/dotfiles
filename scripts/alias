@@ -1,1 +1,2 @@
 alias lsports='lsof -i -P | grep -i "listen"'
+alias virow4='source ~/.environments/onlineweb4/bin/activate'
