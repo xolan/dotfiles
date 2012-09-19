@@ -57,9 +57,10 @@ Xft.rgba:		rgb
 
 !! Urxvt
 urxvt*scrollBar:	plain
-urxvt*termName:		rxvt-256color
-urxvt*font: 		xft:Terminus
-urxvt*boldFont: 	xft:Terminus
+urxvt*termName:		xterm-256color
+urxvt*font: 		xft:DejaVu Sans Mono:pixelsize=10
+urxvt*boldFont: 	xft:DejaVu Sans Mono:pixelsize=10
 urxvt*cursorColor:	t_orange
-urxvt*shading:    20
+urxvt*shading:    10
 urxvt*transparent:true
+urxvt*urgentOnBell:true
