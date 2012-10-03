@@ -8,7 +8,7 @@
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 8.0,
+	"font_size": 8,
 	"highlight_line": true,
 	"ignored_packages":
 	[

@@ -1,2 +1,3 @@
 alias lsports='lsof -i -P | grep -i "listen"'
 alias virow4='source ~/.environments/onlineweb4/bin/activate && cd ~/dev/onlineweb4'
+alias ack='/usr/bin/vendor_perl/ack'
