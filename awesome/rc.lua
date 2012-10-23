@@ -239,6 +239,10 @@ globalkeys = awful.util.table.join(
 
     awful.key({ modkey, "Control" }, "n", awful.client.restore),
 
+    -- Multimedia keys
+    awful.key({ }, "XF86AudioRaiseVolume",    function () awful.util.spawn("amixer set Master 2+") end),
+    awful.key({ }, "XF86AudioLowerVolume",    function () awful.util.spawn("amixer set Master 2-") end),
+
     -- Prompt
     awful.key({ modkey },            "r",     function () mypromptbox[mouse.screen]:run() end),
 
@@ -376,13 +380,11 @@ client.add_signal("unfocus", function(c) c.border_color = beautiful.border_norma
 -- 
 autorun = true
 autorunApps = { 
-    "nm-applet",
     "xrdb -merge /home/xolan/.Xresources",
     "autocutsel -fork",
     "autocutsel -selection PRIMARY -fork",
     "export BROWSER=/usr/bin/google-chrome",
     "setxkbmap no",
-    "dropboxd",
 }
 if autorun then
     for app = 1, #autorunApps do
