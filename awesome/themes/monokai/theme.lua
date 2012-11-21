@@ -74,7 +74,7 @@ theme.titlebar_maximized_button_normal_active = "/home/xolan/.config/awesome/the
 theme.titlebar_maximized_button_focus_active  = "/home/xolan/.config/awesome/themes/monokai/titlebar/maximized_focus_active.png"
 
 -- You can use your own command to set your wallpaper
-theme.wallpaper_cmd = { "awsetbg /home/xolan/.config/awesome/themes/monokai/background.png" }
+theme.wallpaper_cmd = { "nitrogen --restore" }
 
 -- You can use your own layout icons like this:
 theme.layout_fairh = "/home/xolan/.config/awesome/themes/monokai/layouts/fairhw.png"

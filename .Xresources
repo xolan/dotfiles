@@ -28,9 +28,13 @@ Xft.rgba:		rgb
 !! Urxvt
 urxvt*scrollBar:	plain
 urxvt*termName:		xterm-256color
-urxvt*font: 		xft:DejaVu Sans Mono:pixelsize=10
-urxvt*boldFont: 	xft:DejaVu Sans Mono:pixelsize=10
+urxvt*font: 		xft:Inconsolata:pixelsize=12
+urxvt*boldFont: 	xft:Inconsolata:pixelsize=12
 urxvt*cursorColor:	t_orange
 urxvt*shading:    10
 urxvt*transparent:true
 urxvt*urgentOnBell:true
+urxvt*perl-ext-common:  default,matcher
+urxvt*urlLauncher:      /usr/bin/google-chrome
+urxvt*matcher.button:   1
+urxvt*colorUL: #4682B4
