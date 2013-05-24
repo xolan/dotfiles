@@ -1,1 +1,1 @@
-nm-applet &
+nm-applet & exit
