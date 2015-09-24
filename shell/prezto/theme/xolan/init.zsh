@@ -80,8 +80,20 @@ function prompt_xolan_precmd {
   # Format PWD.
   prompt_xolan_pwd
 
+  if (( $+functions[python-info] )); then
+    python-info
+  fi
+
+  if (( $+functions[ruby-info] )); then
+    ruby-info
+  fi
+
+  if (( $+functions[node-info] )); then
+    node-info
+  fi
+
   # Define prompts.
-  RPROMPT='${editor_info[overwrite]}%(?:: %F{1}⏎%f)${VIM:+" %B%F{6}V%f%b"}'
+  RPROMPT='${editor_info[overwrite]}%(?:: %F{1}⏎%f)${VIM:+" %B%F{6}V%f%b"} ${python_info[virtualenv]} ${ruby_info[version]} ${node_info[version]}'
 
   # Kill the old process of slow commands if it is still running.
   if (( _prompt_xolan_precmd_async_pid > 0 )); then
@@ -93,19 +105,6 @@ function prompt_xolan_precmd {
   prompt_xolan_precmd_async &!
   _prompt_xolan_precmd_async_pid=$!
 }
-
-function prompt_xolan_preexec {
-  setopt LOCAL_OPTIONS
-  unsetopt XTRACE KSH_ARRAYS
-
-  # Load required functions.
-  autoload -Uz add-zsh-hook
-
-  add-zsh-hook preexec python-info
-  add-zsh-hook preexec ruby-info
-  add-zsh-hook preexec node-info
-}
-
 
 function prompt_xolan_setup {
   setopt LOCAL_OPTIONS
@@ -154,7 +153,7 @@ function prompt_xolan_setup {
   zstyle ':prezto:module:node:info:version' format 'version:%v'
 
   # Define prompts.
-  PROMPT='${SSH_TTY:+"%F{9}%n%f%F{7}@%f%F{3}%m%f "}%F{4}${_prompt_xolan_pwd}%(!. %B%F{1}#%f%b.)${editor_info[keymap]} ${python_info[virtualenv]} ${ruby_info[version]} ${node_info[version]}'
+  PROMPT='${SSH_TTY:+"%F{9}%n%f%F{7}@%f%F{3}%m%f "}%F{4}${_prompt_xolan_pwd}%(!. %B%F{1}#%f%b.)${editor_info[keymap]} '
   RPROMPT=''
   SPROMPT='zsh: correct %F{1}%R%f to %F{2}%r%f [nyae]? '
 }
