@@ -4,17 +4,19 @@ Available variants:
 * arch
 * osx
 
-Available tasks:
-* bootstrap
-* default
-
-1. `homemaker/bin/homemaker --verbose -variant "arch" -task "bootstrap" config.toml ~/dotfiles
+1. `homemaker/bin/homemaker --verbose -variant "arch" -task "bootstrap" config.toml ~/dotfiles`
 2. `homemaker/bin/homemaker --verbose -variant "arch" config.toml ~/dotfiles`
 
 
 # Installation
 
-1. Install zim
+1. Install homemaker
+
+```
+GOPATH=${HOME}/dotfiles/homemaker go get github.com/FooSoft/homemaker
+```
+
+2. Install zim
 
 ```
 git clone --recursive https://github.com/Eriner/zim.git ${ZDOTDIR:-${HOME}}/.zim
