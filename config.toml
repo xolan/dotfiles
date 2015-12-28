@@ -5,10 +5,22 @@
 [macros.install__osx]
 	prefix = ["brew", "install"]
 
-[tasks.bootstrap]
+[tasks.bootstrap_common]
 	cmds = [
-		["pwd"],
-		["./dotfiles/tasks_bootstrap_cmd1.sh"]
+		["./dotfiles/tasks_bootstrap_common.sh"]
+	]
+
+[tasks.bootstrap__arch]
+	deps = ["bootstrap_common"]
+	cmds = [
+		["@install", "nvm", "nix"],
+		["./dotfiles/tasks_bootstrap__${HM_VARIANT}.sh"]
+	]
+
+[tasks.bootstrap__osx]
+	deps = ["bootstrap_common"]
+	cmds = [
+		["./dotfiles/tasks_bootstrap__${HM_VARIANT}.sh"]
 	]
 
 [tasks.default]

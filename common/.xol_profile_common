@@ -1,3 +1,6 @@
+# Set emacs keys
+bindkey -e
+
 export EDITOR=vim
 
 # set where virutal environments will live
