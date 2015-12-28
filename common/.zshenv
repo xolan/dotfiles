@@ -1,0 +1,1 @@
+source .xol_profile

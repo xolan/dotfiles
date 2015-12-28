@@ -1,0 +1,9 @@
+source .xol_profile_common
+
+export PATH=$PATH:/Users/xolan/Library/Android/sdk/platform-tools
+export PATH=$PATH:/Users/xolan/Library/Android/sdk/tools
+
+# Postgres.app
+POSTGRES_APP=/Applications/Postgres.app
+path=("$POSTGRES_APP/Contents/Versions/9.3/bin" $path)
+path=("$POSTGRES_APP/Contents/Versions/9.4/bin" $path)

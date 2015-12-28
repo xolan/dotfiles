@@ -1,11 +1,4 @@
 export EDITOR=vim
-export PATH=$PATH:/Users/xolan/Library/Android/sdk/platform-tools
-export PATH=$PATH:/Users/xolan/Library/Android/sdk/tools
-
-alias exa=$HOME/build/exa/target/exa
-alias lss=exa
-alias lll="exa -bghl"
-alias l=lll
 
 # set where virutal environments will live
 export WORKON_HOME=$HOME/.virtualenvs
@@ -16,7 +9,12 @@ export PIP_VIRTUALENV_BASE=$WORKON_HOME
 # makes pip detect an active virtualenv and install to it
 export PIP_RESPECT_VIRTUALENV=true
 
-# Postgres.app
-POSTGRES_APP=/Applications/Postgres.app
-path=("$POSTGRES_APP/Contents/Versions/9.3/bin" $path)
-path=("$POSTGRES_APP/Contents/Versions/9.4/bin" $path)
+
+## Source environment helpers
+
+### nix
+. ${HOME}/.nix-profile/etc/profile.d/nix.sh
+
+### nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm

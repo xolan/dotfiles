@@ -1,7 +1,7 @@
 # ~/.tmuxinator/hoopla.yml
 
 name: hoopla
-root: ~/dev/hoopla/
+root: ~/work/hoopla/hoopla/
 
 # Optional tmux socket
 # socket_name: foo
@@ -37,6 +37,7 @@ windows:
   - api:
       layout: main-horizontal
       pre:
+        - source ~/.zshenv
         - workon hoopla
         - clear
       panes:
