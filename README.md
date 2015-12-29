@@ -19,7 +19,7 @@ GOPATH=${HOME}/dotfiles/homemaker go get github.com/FooSoft/homemaker
 2. Install zim
 
 ```
-git clone --recursive https://github.com/Eriner/zim.git ${ZDOTDIR:-${HOME}}/.zim
+git clone --recursive https://github.com/xolan/zim.git ${ZDOTDIR:-${HOME}}/.zim
 
 # Copy or append templates
 setopt EXTENDED_GLOB
