@@ -1,1 +1,1 @@
-source .xol_profile
+source ${HOME}/.xol_profile

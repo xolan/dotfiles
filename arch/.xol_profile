@@ -1,1 +1,6 @@
-source .xol_profile_common
+source ${HOME}/.xol_profile_common
+
+## Source environment helpers
+
+### python virtualenv
+source /usr/bin/virtualenvwrapper.sh

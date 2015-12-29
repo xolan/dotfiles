@@ -1,4 +1,4 @@
-source .xol_profile_common
+source ${HOME}/.xol_profile_common
 
 export PATH=$PATH:/Users/xolan/Library/Android/sdk/platform-tools
 export PATH=$PATH:/Users/xolan/Library/Android/sdk/tools
