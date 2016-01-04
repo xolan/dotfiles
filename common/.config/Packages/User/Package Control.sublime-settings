@@ -1,0 +1,28 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AutoDocstring",
+		"ColorSchemeSelector",
+		"Devastate",
+		"Markdown Preview",
+		"Material Theme",
+		"Package Control",
+		"Predawn",
+		"Project Manager",
+		"Seti_UI",
+		"Seti_UX",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-annotations",
+		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-flake8",
+		"SublimeLinter-shellcheck",
+		"Theme - Spacegray",
+		"Themr",
+		"TOML"
+	]
+}

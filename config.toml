@@ -36,3 +36,15 @@
 
 		[".zimrc", "common/.zimrc"],
 	]
+
+[tasks.default__arch]
+	deps = ["default"]
+	links = [
+		[".config/sublime-text-3/Packages/User", "common/.config/Packages/User"]
+	]
+
+[tasks.default__osx]
+	deps = ["default"]
+	links = [
+		["Library/Application Support/Sublime Text 3/Packages/User", "common/.config/Packages/User"]
+	]

@@ -1,0 +1,27 @@
+{
+	"bold_folder_labels": true,
+	"caret_extra_bottom": 0,
+	"caret_extra_top": 0,
+	"caret_extra_width": 4,
+	"caret_style": "solid",
+	"color_scheme": "Packages/User/SublimeLinter/predawn (SL).tmTheme",
+	"draw_indent_guides": true,
+	"draw_white_space": "all",
+	"font_face": "Fira Mono",
+	"font_size": 12,
+	"highlight_line": false,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_active"
+	],
+	"predawn_quick_panel_small": true,
+	"predawn_sidebar_arrows": false,
+	"predawn_tabs_active_underline": true,
+	"theme": "predawn-DEV.sublime-theme",
+	"trim_trailing_white_space_on_save": false
+}
