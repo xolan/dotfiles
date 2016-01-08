@@ -1,0 +1,9 @@
+{
+	"csv_per_file_setting":
+	[
+		{
+			"file": "/home/xolan/work/hpay-transactions/test-input/bank/223 Transaksjonssok Hoopla.csv",
+			"use_header": true
+		}
+	]
+}

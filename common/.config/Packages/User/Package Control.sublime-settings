@@ -5,9 +5,13 @@
 	],
 	"installed_packages":
 	[
+		"Advanced CSV",
+		"Alignment",
 		"AutoDocstring",
+		"BracketHighlighter",
 		"ColorSchemeSelector",
 		"Devastate",
+		"Markdown Extended",
 		"Markdown Preview",
 		"Material Theme",
 		"Package Control",
@@ -21,7 +25,10 @@
 		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-flake8",
 		"SublimeLinter-shellcheck",
+		"Theme - Brogrammer",
+		"Theme - Glacier",
 		"Theme - Spacegray",
+		"Theme - Tech49",
 		"Themr",
 		"TOML"
 	]
