@@ -1,0 +1,5 @@
+
+** 2016-01-12 09:40:21.915077 **:
+MarGo: Missing required environment variables: GOPATH
+See the `Quirks` section of USAGE.md for info
+--------------------------------
