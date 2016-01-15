@@ -24,7 +24,8 @@
 	]
 
 [tasks.default]
-	links = [
+	cmds = [
+		["echo", "Please choose a variant (osx, arch)."]
 	]
 
 [tasks.default__arch]
@@ -32,14 +33,13 @@
 		[".bashrc", "common/.bashrc"],
 		[".bash_profile", "common/.bash_profile"],
 		[".zshenv", "common/.zshenv"],
-
 		[".xol_profile_common", "common/.xol_profile_common"],
 		[".xol_profile", "${HM_VARIANT}/.xol_profile"],
-
 		[".Xresources", "${HM_VARIANT}/.Xresources"],
-
 		[".zimrc", "common/.zimrc"],
-		[".config/sublime-text-3/Packages/User", "common/.config/Packages/User"]
+		[".config/sublime-text-3/Packages/User", "common/.config/Packages/User"],
+		[".config/bspwm", "${HM_VARIANT}/.config/bspwm"],
+		[".config/sxhkd", "${HM_VARIANT}/.config/sxhkd"]
 	]
 
 [tasks.default__osx]
