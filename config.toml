@@ -36,10 +36,12 @@
 		[".xol_profile_common", "common/.xol_profile_common"],
 		[".xol_profile", "${HM_VARIANT}/.xol_profile"],
 		[".Xresources", "${HM_VARIANT}/.Xresources"],
+		[".xinitrc", "${HM_VARIANT}/.xinitrc"],
 		[".zimrc", "common/.zimrc"],
 		[".config/sublime-text-3/Packages/User", "common/.config/Packages/User"],
 		[".config/bspwm", "${HM_VARIANT}/.config/bspwm"],
-		[".config/sxhkd", "${HM_VARIANT}/.config/sxhkd"]
+		[".config/sxhkd", "${HM_VARIANT}/.config/sxhkd"],
+		[".config/fontconfig", "${HM_VARIANT}/.config/fontconfig"]
 	]
 
 [tasks.default__osx]

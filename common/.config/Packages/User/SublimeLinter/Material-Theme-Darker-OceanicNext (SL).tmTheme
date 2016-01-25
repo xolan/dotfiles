@@ -117,7 +117,7 @@
       <key>name</key>
       <string>Tag</string>
       <key>scope</key>
-      <string>entity.name.tag, meta.tag.sgml, markup.deleted.git_gutter</string>
+      <string>entity.name.tag, meta.tag.sgml, markup.deleted.git_gutter, text.html.basic meta.tag.other.html entity.other.attribute-name.html</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -352,15 +352,33 @@
         <string>#EC5F67</string>
       </dict>
     </dict>
+    <dict>
+      <key>scope</key>
+      <string>constant.numeric.line-number.find-in-files - match, text.find-in-files constant.numeric.line-number.find-in-files</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#424242</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>scope</key>
+      <string>entity.name.filename.find-in-files, text.find-in-files constant.numeric.line-number.match.find-in-files</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FFEB95</string>
+      </dict>
+    </dict>
   <dict>
             <key>name</key>
-            <string>SublimeLinter Gutter Mark</string>
+            <string>SublimeLinter Warning</string>
             <key>scope</key>
-            <string>sublimelinter.gutter-mark</string>
+            <string>sublimelinter.mark.warning</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#FFFFFF</string>
+                <string>#DDB700</string>
             </dict>
         </dict><dict>
             <key>name</key>
@@ -374,13 +392,13 @@
             </dict>
         </dict><dict>
             <key>name</key>
-            <string>SublimeLinter Warning</string>
+            <string>SublimeLinter Gutter Mark</string>
             <key>scope</key>
-            <string>sublimelinter.mark.warning</string>
+            <string>sublimelinter.gutter-mark</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#DDB700</string>
+                <string>#FFFFFF</string>
             </dict>
         </dict></array>
   <key>uuid</key>

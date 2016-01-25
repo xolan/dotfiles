@@ -5,15 +5,16 @@
 	"caret_extra_top": 0,
 	"caret_extra_width": 4,
 	"caret_style": "solid",
-	"color_scheme": "Packages/Material Theme/schemes/OLD/Material-Theme.tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Preap (SL).tmTheme",
 	"draw_indent_guides": true,
 	"draw_white_space": "all",
+	"findreplace_small": true,
 	"font_face": "Fira Mono",
 	"font_options":
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 13,
+	"font_size": 12,
 	"highlight_line": false,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -27,13 +28,11 @@
 	],
 	"line_padding_bottom": 3,
 	"line_padding_top": 3,
-	"material_theme_accent_orange": true,
-	"material_theme_compact_sidebar": true,
-	"material_theme_contrast_mode": true,
-	"material_theme_small_statusbar": true,
-	"material_theme_small_tab": true,
-	"material_theme_tree_headings": true,
 	"overlay_scroll_bars": "enabled",
-	"theme": "Material-Theme.sublime-theme",
+	"show_tab_close_buttons": false,
+	"static_modified_tab": true,
+	"tabs_border": false,
+	"tabs_small": true,
+	"theme": "preap.sublime-theme",
 	"trim_trailing_white_space_on_save": true
 }
