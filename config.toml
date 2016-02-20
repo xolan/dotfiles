@@ -13,7 +13,11 @@
 [tasks.bootstrap__arch]
 	deps = ["bootstrap_common"]
 	cmds = [
-		["@install", "nvm", "nix"],
+		["@install",
+			 "nvm",
+			 "nix",
+			 "i3-gaps"
+		],
 		["bash", "${PWD}/tasks_bootstrap__${HM_VARIANT}.sh"]
 	]
 
@@ -38,10 +42,15 @@
 		[".Xresources", "${HM_VARIANT}/.Xresources"],
 		[".xinitrc", "${HM_VARIANT}/.xinitrc"],
 		[".zimrc", "common/.zimrc"],
+		[".colors.conf", "${HM_VARIANT}/.colors.conf"],
+		[".i3blocks.conf", "${HM_VARIANT}/.i3blocks.conf"],
+		[".config/termite", "${HM_VARIANT}/.config/termite"],
 		[".config/sublime-text-3/Packages/User", "common/.config/Packages/User"],
-		[".config/bspwm", "${HM_VARIANT}/.config/bspwm"],
-		[".config/sxhkd", "${HM_VARIANT}/.config/sxhkd"],
-		[".config/fontconfig", "${HM_VARIANT}/.config/fontconfig"]
+		[".config/fontconfig", "${HM_VARIANT}/.config/fontconfig"],
+		[".config/i3", "${HM_VARIANT}/.config/i3"],
+		[".config/gsimplecal", "${HM_VARIANT}/.config/gsimplecal"],
+		[".config/compton.conf", "${HM_VARIANT}/.config/compton.conf"],
+		["scripts", "${HM_VARIANT}/scripts"],
 	]
 
 [tasks.default__osx]

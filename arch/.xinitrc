@@ -80,5 +80,11 @@ export GNOME_KEYRING_CONTROL GNOME_KEYRING_PID GPG_AGENT_INFO SSH_AUTH_SOCK
 
 
 # WM: bspwm
-sxhkd &
-exec bspwm
+#sxhkd &
+#exec bspwm
+
+# WM: i3
+xset fp rehash &
+xrdb -merge .Xresources &
+hsetroot -fill /home/xolan/Pictures/Wallpapers/arch_2016.png &
+exec i3

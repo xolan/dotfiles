@@ -106,7 +106,7 @@
       <key>name</key>
       <string>Operator, Misc</string>
       <key>scope</key>
-      <string>keyword.operator, constant.other.color, punctuation, meta.tag, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded, keyword.other.template, keyword.other.substitution</string>
+      <string>keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded, keyword.other.template, keyword.other.substitution</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -139,7 +139,7 @@
       <key>name</key>
       <string>Other Variable, String Link</string>
       <key>scope</key>
-      <string>support.other.variable, string.other.link</string>
+      <string>support.other.variable, string.other.link, source.ruby constant.other.symbol</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -231,7 +231,7 @@
       <key>name</key>
       <string>Attributes</string>
       <key>scope</key>
-      <string>entity.other.attribute-name</string>
+      <string>entity.other.attribute-name, meta.tag.any.html entity.other.attribute-name.html</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -372,16 +372,6 @@
     </dict>
   <dict>
             <key>name</key>
-            <string>SublimeLinter Warning</string>
-            <key>scope</key>
-            <string>sublimelinter.mark.warning</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#DDB700</string>
-            </dict>
-        </dict><dict>
-            <key>name</key>
             <string>SublimeLinter Error</string>
             <key>scope</key>
             <string>sublimelinter.mark.error</string>
@@ -389,6 +379,16 @@
             <dict>
                 <key>foreground</key>
                 <string>#D02000</string>
+            </dict>
+        </dict><dict>
+            <key>name</key>
+            <string>SublimeLinter Warning</string>
+            <key>scope</key>
+            <string>sublimelinter.mark.warning</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#DDB700</string>
             </dict>
         </dict><dict>
             <key>name</key>

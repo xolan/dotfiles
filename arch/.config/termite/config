@@ -1,0 +1,47 @@
+[colors]
+foreground      = #c8b49d
+foreground_bold = #c8b49d
+cursor          = #c8b49d
+background      = #070808
+
+# 16 color space
+color0  = #1c1b1b
+color1  = #bd5d4c
+color2  = #4d6733
+color3  = #917033
+color4  = #708294
+color5  = #91313b
+color6  = #319170
+color7  = #c8c5c1
+color8  = #2a2a2a
+color9  = #7a3225
+color10 = #4d6633
+color11 = #7a5b20
+color12 = #3c5165
+color13 = #7a232c
+color14 = #1c7a59
+color15 = #c8b49d
+
+[options]
+resize_grip = false
+scroll_on_output = false
+scroll_on_keystroke = true
+audible_bell = false
+visible_bell = true
+mouse_autohide = true
+allow_bold = true
+dynamic_title = true
+urgent_on_bell = true
+clickable_url = true
+font = Ubuntu Mono derivative Powerline 14
+scrollback_lines = 1000
+search_wrap = true
+
+# transparency
+transparency = 0.0
+pseudo_transparency = false
+
+# cursor
+cursor_blink = system
+cursor_shape = block
+
