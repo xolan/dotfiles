@@ -108,7 +108,7 @@ set $ws6 6:term
 set $ws7 7:term
 set $ws8 8:term
 set $ws9 9:term
-set $ws10 10:term
+set $ws10 10:chat
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1
@@ -195,6 +195,7 @@ assign [class="Firefox"] $ws3
 assign [class="google-chrome"] $ws3
 assign [class="Thunar"] $ws4
 assign [class="Apvlv"] $ws5
+assign [class="Slack"] $ws10
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
@@ -241,7 +242,7 @@ bar {
     }
 
 }
-exec --no-startup-id compton -b --shadow-exclude _GTK_FRAME_EXTENTS@:c
+exec --no-startup-id compton -b --backend glx --vsync --shadow-exclude _GTK_FRAME_EXTENTS@:c
 exec --no-startup-id mpd
 exec --no-startup-id dropbox
 exec --no-startup-id nm-applet

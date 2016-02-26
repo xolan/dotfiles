@@ -16,7 +16,8 @@
 		["@install",
 			 "nvm",
 			 "nix",
-			 "i3-gaps"
+			 "i3-gaps",
+			 "neovim"
 		],
 		["bash", "${PWD}/tasks_bootstrap__${HM_VARIANT}.sh"]
 	]
@@ -44,6 +45,7 @@
 		[".zimrc", "common/.zimrc"],
 		[".colors.conf", "${HM_VARIANT}/.colors.conf"],
 		[".i3blocks.conf", "${HM_VARIANT}/.i3blocks.conf"],
+		[".config/nvim", "${HM_VARIANT}/.config/nvim"],
 		[".config/termite", "${HM_VARIANT}/.config/termite"],
 		[".config/sublime-text-3/Packages/User", "common/.config/Packages/User"],
 		[".config/fontconfig", "${HM_VARIANT}/.config/fontconfig"],
@@ -61,5 +63,6 @@
 		[".xol_profile_common", "common/.xol_profile_common"],
 		[".xol_profile", "${HM_VARIANT}/.xol_profile"],
 		[".zimrc", "common/.zimrc"],
+		[".config/nvim", "${HM_VARIANT}/.config/nvim"],
 		["Library/Application Support/Sublime Text 3/Packages/User", "common/.config/Packages/User"]
 	]
