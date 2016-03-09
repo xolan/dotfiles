@@ -107,7 +107,7 @@ set $ws5 5:pdf
 set $ws6 6:term
 set $ws7 7:term
 set $ws8 8:term
-set $ws9 9:term
+set $ws9 9:mus
 set $ws10 10:chat
 
 # switch to workspace
@@ -195,6 +195,7 @@ assign [class="Firefox"] $ws3
 assign [class="google-chrome"] $ws3
 assign [class="Thunar"] $ws4
 assign [class="Apvlv"] $ws5
+assign [class="Slack"] $ws9
 assign [class="Slack"] $ws10
 
 # Start i3bar to display a workspace bar (plus the system information i3status

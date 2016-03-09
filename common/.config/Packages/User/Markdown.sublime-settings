@@ -1,9 +1,38 @@
 {
-    "color_scheme": "Packages/Preap/Schemes/preap-markdown.tmTheme",
-    "draw_centered": true, // Centers the column in the window
-    "draw_indent_guides": false,
-    "font_size": 15,
-    "trim_trailing_white_space_on_save": false,
-    "word_wrap": true,
-    "wrap_width": 80  // Sets the # of characters per line
+	"always_show_minimap_viewport": true,
+	"bold_folder_labels": true,
+	"caret_extra_bottom": 0,
+	"caret_extra_top": 0,
+	"caret_extra_width": 4,
+	"caret_style": "solid",
+	"color_scheme": "Packages/User/SublimeLinter/Solarized V Markdown (Light) (SL).tmTheme",
+	"draw_indent_guides": true,
+	"draw_white_space": "all",
+	"findreplace_small": true,
+	"font_face": "Fira Mono",
+	"font_options":
+	[
+		"subpixel_antialias"
+	],
+	"font_size": 12,
+	"highlight_line": false,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_padding_bottom": 3,
+	"line_padding_top": 3,
+	"overlay_scroll_bars": "enabled",
+	"show_tab_close_buttons": false,
+	"static_modified_tab": true,
+	"tabs_border": false,
+	"tabs_small": true,
+	"theme": "Solarized Space Light.sublime-theme",
+	"trim_trailing_white_space_on_save": true
 }

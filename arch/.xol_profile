@@ -1,5 +1,7 @@
 source ${HOME}/.xol_profile_common
 
+. /etc/profile.d/vte.sh
+
 ## Source environment helpers
 
 ### python virtualenv
