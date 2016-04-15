@@ -2,7 +2,8 @@
 
 ! special
 *.foreground:   #c8b49d
-*background: rgba:0007/0007/0008/f200
+*background:    #070708
+!rgba:0007/0007/0008/f200
 !*.background:   #070808
 *.cursorColor:  #c8b49d
 
@@ -10,7 +11,7 @@
 *.color0:       #1c1b1b
 *.color8:       #2a2a2a
 
-!  red
+! red
 *.color1:       #bd5d4c
 *.color9:       #7a3225
 
@@ -59,3 +60,12 @@ Xft.antialias:  true
 Xft.rgba:       rgb
 Xft.hinting:    true
 Xft.hintstyle:  hintslight
+
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! ------------------------------------------------------------------------------
+rofi.color-enabled: true
+rofi.color-window: #1c1b1b, #c8b49d, #c8b49d
+rofi.color-normal: #1c1b1b, #c8b49d, #070808, #c8b49d, #1c1b1b
+rofi.color-active: #1c1b1b, #4d6733, #070808, #4d6733, #cccccc
+rofi.color-urgent: #1c1b1b, #bd5d4c, #070808, #bd5d4c, #1c1b1b

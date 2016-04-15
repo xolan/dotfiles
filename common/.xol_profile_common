@@ -1,8 +1,6 @@
 # Set emacs keys
 bindkey -e
 
-export EDITOR=vim
-
 # set where virutal environments will live
 export WORKON_HOME=$HOME/.virtualenvs
 # ensure all new environments are isolated from the site-packages directory
@@ -15,9 +13,6 @@ export PIP_RESPECT_VIRTUALENV=true
 export PATH="/usr/local/heroku/bin:${PATH}"
 
 ## Source environment helpers
-
-### nix
-. ${HOME}/.nix-profile/etc/profile.d/nix.sh
 
 ### nvm
 export NVM_DIR="$HOME/.nvm"

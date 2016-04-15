@@ -6,3 +6,7 @@ source ${HOME}/.xol_profile_common
 
 ### python virtualenv
 source /usr/bin/virtualenvwrapper.sh
+
+## Env
+alias vim=nvim
+export EDITOR=nvim

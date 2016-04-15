@@ -18,7 +18,7 @@ set $mod Mod4
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
-font pango:DejaVu Sans Mono 10
+font pango:Fira Mono 10
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -30,8 +30,13 @@ bindsym $mod+Return exec exec /usr/bin/termite
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
+#bindsym $mod+d exec ~/scripts/launcher.sh
 
-bindsym $mod+d exec ~/scripts/launcher.sh
+# rofi
+# exec --no-startup-id rofi &
+bindsym $mod+d exec --no-startup-id rofi -show run
+bindsym $mod+ctrl+space exec --no-startup-id rofi -show run
+bindsym $mod+space exec --no-startup-id rofi -show window
 
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
@@ -82,7 +87,7 @@ bindsym $mod+e layout toggle split
 bindsym $mod+Shift+space floating toggle
 
 # change focus between tiling / floating windows
-bindsym $mod+space focus mode_toggle
+# bindsym $mod+space focus mode_toggle
 
 # focus the parent container
 bindsym $mod+a focus parent
@@ -191,12 +196,18 @@ client.placeholder      #57544c #57544c #ffffff #57544c
 assign [class="Subl3"] $ws2
 assign [class="Java"] $ws2
 assign [class="Eclipse"] $ws2
+assign [class="Code"] $ws2
+assign [class="code"] $ws2
 assign [class="Firefox"] $ws3
 assign [class="google-chrome"] $ws3
+assign [class="vivaldi"] $ws3
+assign [class="vivaldi-stable"] $ws3
 assign [class="Thunar"] $ws4
 assign [class="Apvlv"] $ws5
-assign [class="Slack"] $ws9
+assign [class="Spotify"] $ws9
+assign [class="spotify"] $ws9
 assign [class="Slack"] $ws10
+assign [class="Caprine"] $ws10
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
@@ -224,7 +235,7 @@ bar {
     position top
     status_command i3blocks
     i3bar_command i3bar -t
-    font pango:Ubuntu Mono, FontAwesome 11
+    font pango:Fira Mono, FontAwesome 11
     separator_symbol "|"
     tray_output eDP1
     tray_padding 0
@@ -243,7 +254,6 @@ bar {
     }
 
 }
-exec --no-startup-id compton -b --backend glx --vsync --shadow-exclude _GTK_FRAME_EXTENTS@:c
-exec --no-startup-id mpd
+exec --no-startup-id compton --config ~/.config/compton.conf -b --vsync opengl --paint-on-overlay --shadow-exclude _GTK_FRAME_EXTENTS@:c
 exec --no-startup-id dropbox
 exec --no-startup-id nm-applet

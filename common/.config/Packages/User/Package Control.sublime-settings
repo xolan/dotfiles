@@ -8,6 +8,7 @@
 		"Advanced CSV",
 		"Alignment",
 		"AutoDocstring",
+		"Babel",
 		"BracketHighlighter",
 		"ColorSchemeSelector",
 		"Devastate",
@@ -15,6 +16,8 @@
 		"EditorConfigSnippets",
 		"Git",
 		"GitGutter",
+		"Gitignored File Excluder",
+		"Haxe",
 		"i3 wm",
 		"Markdown Extended",
 		"Markdown Preview",
@@ -25,7 +28,9 @@
 		"PostgreSQL Syntax Highlighting",
 		"Preap",
 		"Predawn",
+		"Pretty JSON",
 		"Project Manager",
+		"React Templates",
 		"Seti_UI",
 		"Seti_UX",
 		"SideBarEnhancements",
@@ -39,11 +44,13 @@
 		"Theme - Brogrammer",
 		"Theme - Glacier",
 		"Theme - Soda SolarizedDark",
+		"Theme - SoDaReloaded",
 		"Theme - Solarized Flat",
 		"Theme - Solarized Space",
 		"Theme - Spacegray",
 		"Theme - Tech49",
 		"Themr",
-		"TOML"
+		"TOML",
+		"Tomorrow Color Schemes"
 	]
 }

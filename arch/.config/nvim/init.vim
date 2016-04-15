@@ -11,19 +11,19 @@ call plug#end()
 
 " general
 set number
-set cursorline
-hi CursorLine guibg=#000050 guifg=fg
-hi CursorLine guibg=#004000 guifg=fg
-set cursorcolumn
-hi CursorColumn ctermfg=White ctermbg=Yellow cterm=bold guifg=white guibg=yellow gui=bold
-hi CursorColumn ctermfg=Black ctermbg=Yellow cterm=bold guifg=Black guibg=yellow gui=NONE
+" set cursorline
+" hi CursorLine guibg=#000050 guifg=fg
+" hi CursorLine guibg=#004000 guifg=fg
+" set cursorcolumn
+" hi CursorColumn ctermfg=White ctermbg=Yellow cterm=bold guifg=white guibg=yellow gui=bold
+" hi CursorColumn ctermfg=Black ctermbg=Yellow cterm=bold guifg=Black guibg=yellow gui=NONE
 
 set shiftwidth=2
 set tabstop=2
 set softtabstop=2
 
 syntax on
-set listchars=trail:·,precedes:«,extends:»,eol:↲,tab:▸\ 
+set listchars=trail:·,precedes:«,extends:»,eol:↲,tab:▸\
 set list!
 
 " vim-airline
