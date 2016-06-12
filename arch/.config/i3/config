@@ -106,7 +106,7 @@ bindsym XF86MonBrightnessUp exec --no-startup-id light -A 20 # increase screen b
 bindsym XF86MonBrightnessDown exec --no-startup-id light -U 20 # decrease screen brightness
 
 # Other
-bindsym $mod+Shift+Alt+l exec --no-startup-id ~/scripts/lock.sh
+bindsym $mod+Ctrl+l exec --no-startup-id ~/scripts/lock.sh
 
 set $ws1 1:term
 set $ws2 2:code

@@ -50,6 +50,7 @@
 		[".config/sublime-text-3/Packages/User", "common/.config/Packages/User"],
 		[".config/fontconfig", "${HM_VARIANT}/.config/fontconfig"],
 		[".config/i3", "${HM_VARIANT}/.config/i3"],
+		[".config/cava", "${HM_VARIANT}/.config/cava"],
         [".config/yabar", "${HM_VARIANT}/.config/yabar"],
 		[".config/sway", "${HM_VARIANT}/.config/sway"],
 		[".config/gsimplecal", "${HM_VARIANT}/.config/gsimplecal"],

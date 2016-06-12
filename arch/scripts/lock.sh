@@ -12,6 +12,7 @@
 # scrot (optional but default)
 
 IMAGE=/tmp/i3lock.png
+IMAGE_LOCK=${HOME}/Pictures/Wallpapers/lock.png
 SCREENSHOT="scrot $IMAGE" # 0.46s
 
 # Alternate screenshot method with imagemagick. NOTE: it is much slower
@@ -30,5 +31,6 @@ BLURTYPE="2x8" # 2.90s
 # Get the screenshot, add the blur and lock the screen with it
 $SCREENSHOT
 convert $IMAGE -blur $BLURTYPE $IMAGE
+convert $IMAGE $IMAGE_LOCK -gravity center -composite $IMAGE
 i3lock -i $IMAGE
 rm $IMAGE

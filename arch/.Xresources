@@ -60,6 +60,8 @@ Xft.rgba:       rgb
 Xft.hinting:    true
 Xft.hintstyle:  hintslight
 
+*.font: mononoki 12
+
 ! ------------------------------------------------------------------------------
 ! ROFI Color theme
 ! ------------------------------------------------------------------------------
@@ -68,3 +70,4 @@ rofi.color-window: #1c1b1b, #c8b49d, #c8b49d
 rofi.color-normal: #1c1b1b, #c8b49d, #070808, #c8b49d, #1c1b1b
 rofi.color-active: #1c1b1b, #4d6733, #070808, #4d6733, #cccccc
 rofi.color-urgent: #1c1b1b, #bd5d4c, #070808, #bd5d4c, #1c1b1b
+rofi.opacity: 75
