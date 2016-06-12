@@ -44,7 +44,7 @@ bindsym $mod+space exec --no-startup-id rofi -show window
 # installed.
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
-for_window [class="^.*"] border none
+for_window [class="^.*"] border pixel 2
 
 # change focus
 bindsym $mod+h focus left
@@ -186,17 +186,14 @@ bindsym $mod+Shift+o gaps outer current plus 5
 
 smart_borders no_gaps
 
-for_window [class="termite"] border pixel 2
-for_window [class="Termite"] border pixel 2
-
 for_window [class="feh"] floating enable
 
 # class                 border  backgr. text    indicator
-client.focused          #0d0b0a #0d0b0a #ffffff #0d0b0a
-client.focused_inactive #57544c #57544c #ffffff #57544c
-client.unfocused        #57544c #57544c #ffffff #57544c
-client.urgent           #57544c #57544c #ffffff #57544c
-client.placeholder      #57544c #57544c #ffffff #57544c
+client.focused          #e91e63 #e91e63 #ffffff #e91e63
+client.focused_inactive #ad1457 #ad1457 #ffffff #ad1457
+client.unfocused        #ad1457 #ad1457 #ffffff #ad1457
+client.urgent           #ad1457 #ad1457 #ffffff #ad1457
+client.placeholder      #ad1457 #ad1457 #ffffff #ad1457
 
 assign [class="Subl3"] $ws2
 assign [class="Atom"] $ws2
