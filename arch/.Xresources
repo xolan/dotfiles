@@ -1,43 +1,42 @@
 *depth: 32
 
 ! special
-*.foreground:   #c8b49d
-*background:    #070708
-!rgba:0007/0007/0008/f200
-!*.background:   #070808
-*.cursorColor:  #c8b49d
+*.foreground:   #eceff1
+*.background:   #263238
+*.cursorColor:  #eceff1
 
 ! black
-*.color0:       #1c1b1b
-*.color8:       #2a2a2a
+*.color0:       #263238
+*.color8:       #37474f
 
 ! red
-*.color1:       #bd5d4c
-*.color9:       #7a3225
+*.color1:       #ff9800
+*.color9:       #ffa74d
 
 ! green
-*.color2:       #4d6733
-*.color10:      #4d6633
+*.color2:       #8bc34a
+*.color10:      #9ccc65
 
 ! yellow
-*.color3:       #917033
-*.color11:      #7a5b20
+*.color3:       #ffc107
+*.color11:      #ffa000
 
 ! blue
-*.color4:       #708294
-*.color12:      #3c5165
+*.color4:       #03a9f4
+*.color12:      #81d4fa
 
 ! magenta
-*.color5:       #91313b
-*.color13:      #7a232c
+*.color5:       #e91e63
+*.color13:      #ad1457
 
 ! cyan
-*.color6:       #319170
-*.color14:      #1c7a59
+*.color6:       #009688
+*.color14:      #26a69a
 
 ! white
-*.color7:       #c8c5c1
-*.color15:      #c8b49d
+*.color7:       #cfd8dc
+*.color15:      #eceff1
+
 
 URxvt*font: xft:Ubuntu Mono derivative Powerline:pixelsize=14:antialias=true:hinting=true
 URxvt*boldFont: xft:Ubuntu Mono derivative Powerline:pixelsize=14:antialias=true:bold:hinting=true

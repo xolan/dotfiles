@@ -1,26 +1,42 @@
 [colors]
-foreground      = #c8b49d
-foreground_bold = #c8b49d
-cursor          = #c8b49d
-background      = #070808
 
-# 16 color space
-color0  = #1c1b1b
-color1  = #bd5d4c
-color2  = #4d6733
-color3  = #917033
-color4  = #708294
-color5  = #91313b
-color6  = #319170
-color7  = #c8c5c1
-color8  = #2a2a2a
-color9  = #7a3225
-color10 = #4d6633
-color11 = #7a5b20
-color12 = #3c5165
-color13 = #7a232c
-color14 = #1c7a59
-color15 = #c8b49d
+# special
+foreground      = #eceff1
+foreground_bold = #eceff1
+cursor          = #eceff1
+background      = #263238
+
+# black
+color0  = #263238
+color8  = #37474f
+
+# red
+color1  = #ff9800
+color9  = #ffa74d
+
+# green
+color2  = #8bc34a
+color10 = #9ccc65
+
+# yellow
+color3  = #ffc107
+color11 = #ffa000
+
+# blue
+color4  = #03a9f4
+color12 = #81d4fa
+
+# magenta
+color5  = #e91e63
+color13 = #ad1457
+
+# cyan
+color6  = #009688
+color14 = #26a69a
+
+# white
+color7  = #cfd8dc
+color15 = #eceff1
 
 [options]
 resize_grip = false
@@ -33,7 +49,7 @@ allow_bold = true
 dynamic_title = true
 urgent_on_bell = true
 clickable_url = true
-font = Ubuntu Mono derivative Powerline 14
+font = mononoki 12
 scrollback_lines = 1000
 search_wrap = true
 
@@ -44,4 +60,3 @@ pseudo_transparency = false
 # cursor
 cursor_blink = system
 cursor_shape = block
-

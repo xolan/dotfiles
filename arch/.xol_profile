@@ -10,3 +10,5 @@ source /usr/bin/virtualenvwrapper.sh
 ## Env
 alias vim=nvim
 export EDITOR=nvim
+
+alias xol_lock=${HOME}/scripts/lock.sh

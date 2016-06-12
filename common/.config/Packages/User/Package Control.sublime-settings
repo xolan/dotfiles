@@ -2,6 +2,13 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"BracketHighlighter",
+		"Material Theme",
+		"Material Theme - Appbar",
+		"SublimeLinter",
+		"Theme - SoDaReloaded",
+		"Theme - Solarized Space",
+		"TOML"
 	],
 	"installed_packages":
 	[

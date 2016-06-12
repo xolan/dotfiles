@@ -18,14 +18,13 @@ set $mod Mod4
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
-#font pango:Fira Mono 10
-font pango:mononoki 12
+font pango:mononoki 10
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec exec /usr/bin/termite
+bindsym $mod+Return exec exec /usr/bin/terminology
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -101,12 +100,9 @@ bindsym XF86AudioRaiseVolume exec --no-startup-id ~/scripts/volume_control.py up
 bindsym XF86AudioLowerVolume exec --no-startup-id ~/scripts/volume_control.py down 2 #decrease sound volume
 bindsym XF86AudioMute exec --no-startup-id amixer -q set Master toggle # mute sound
 
-# Screen brightness controls
+# Sreen brightness controls
 bindsym XF86MonBrightnessUp exec --no-startup-id light -A 20 # increase screen brightness
 bindsym XF86MonBrightnessDown exec --no-startup-id light -U 20 # decrease screen brightness
-
-# Other
-bindsym $mod+Shift+Alt+l exec --no-startup-id ~/scripts/lock.sh
 
 set $ws1 1:term
 set $ws2 2:code
@@ -220,52 +216,50 @@ assign [class="Caprine"] $ws10
 # finds out, if available)
 
 set $transparent #00000000
-set $background  #263238
 
-set $black       #263238
-set $darkblack   #37474f
-
-set $red         #ff9800
-set $darkred     #ffa74d
-
-set $green       #8bc34a
-set $darkgreen   #9ccc65
-
-set $yellow      #ffc107
-set $darkyellow  #ffa000
-
-set $blue        #03a9f4
-set $darkblue    #81d4fa
-
-set $magenta     #e91e63
-set $darkmagenta #ad1457
-
-set $cyan        #009688
-set $darkcyan    #26a69a
-
-set $white       #cfd8dc
-set $darkwhite   #eceff1
+set $black       #1c1815
+set $darkblack   #2a2720
+set $red         #bd5d4c
+set $darkred     #7a3225
+set $green       #4d6733
+set $darkgreen   #4d6633
+set $yellow      #917033
+set $darkyellow  #7a5b20
+set $blue        #708294
+set $darkblue    #3c5165
+set $magenta     #91313b
+set $darkmagenta #7a232c
+set $cyan        #319170
+set $darkcyan    #1c7a59
+set $white       #c8c5c1
+set $darkwhite   #c8b49d
 
 bar {
-  position top
-  status_command i3blocks
-  i3bar_command i3bar -t
-  font pango:mononoki, FontAwesome 12
-  separator_symbol "|"
-  tray_output eDP1
-  tray_padding 0
-  height 28
-  colors {
-    statusline         $white
-    background         $background
-    separator          $darkwhite
-    #                  BORDER       BACKGROUND   TEXT
-    focused_workspace  $background  $background  $red
-    inactive_workspace $background  $background  $white
-    active_workspace   $background  $background  $white
-    urgent_workspace   $darkblack   $darkblack   $red
-    binding_mode       $background  $background  $yellow
-  }
+    position top
+    status_command i3blocks
+    i3bar_command i3bar -t
+    font pango:mononoki, FontAwesome 12
+    separator_symbol "|"
+    tray_output eDP1
+    tray_padding 0
+    height 28
+    colors {
+        statusline         $white
+        background         $transparent
+        separator          $darkwhite
+
+        #                  BORDER       BACKGROUND   TEXT
+        focused_workspace  $transparent $transparent $red
+        inactive_workspace $transparent $transparent $white
+        active_workspace   $transparent $transparent $white
+        urgent_workspace   $darkblack   $darkblack   $red
+        binding_mode       $transparent $transparent $yellow
+    }
+
+}
+
+input "2:14:ETPS/2_Elantech_Touchpad" {
+    tap enabled
 }
 
 exec --no-startup-id compton --config ~/.config/compton.conf -b --vsync opengl --paint-on-overlay --shadow-exclude _GTK_FRAME_EXTENTS@:c

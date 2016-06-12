@@ -1,0 +1,3 @@
+#!/usr/bin/sh
+chromium --app=http://mail.protonmail.ch
+
