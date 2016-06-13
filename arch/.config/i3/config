@@ -179,8 +179,16 @@ bindsym $mod+r mode "resize"
 gaps inner 10
 gaps outer 5
 
+bindsym $mod+Ctrl+o gaps inner current minus 5
+bindsym $mod+Shift+Ctrl+o gaps inner current plus 5
 bindsym $mod+o gaps outer current minus 5
 bindsym $mod+Shift+o gaps outer current plus 5
+
+
+workspace $ws3 gaps inner 0
+workspace $ws3 gaps outer 0
+
+workspace_auto_back_and_forth yes
 
 #smart_gaps off
 
@@ -243,13 +251,15 @@ set $darkcyan    #26a69a
 set $white       #cfd8dc
 set $darkwhite   #eceff1
 
+bindsym $mod+p bar mode toggle
+
 bar {
   position top
   status_command i3blocks
   i3bar_command i3bar -t
   font pango:mononoki, FontAwesome 12
   separator_symbol "|"
-  tray_output eDP1
+  tray_output primary
   tray_padding 0
   height 28
   colors {
