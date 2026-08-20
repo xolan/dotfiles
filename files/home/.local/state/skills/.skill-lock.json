@@ -330,6 +330,15 @@
       "pluginName": "mattpocock-skills",
       "installedAt": "2026-08-20T08:03:40.118Z",
       "updatedAt": "2026-08-20T08:03:40.118Z"
+    },
+    "simplify": {
+      "source": "brianlovin/agent-config",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/brianlovin/agent-config.git",
+      "skillPath": "skills/simplify/SKILL.md",
+      "skillFolderHash": "83566973442dc05bcf5abbe83053e8a8e5f50b6b",
+      "installedAt": "2026-08-20T08:26:51.362Z",
+      "updatedAt": "2026-08-20T08:26:51.362Z"
     }
   },
   "dismissed": {}

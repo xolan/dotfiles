@@ -89,6 +89,11 @@ source = 'https://github.com/mattpocock/skills'
 digest = 'sha256:80e579d089110dd3e3ebf4687c5acdf4181644b514a407888ab7777366f85045'
 
 [[skill]]
+name = 'simplify'
+source = 'https://github.com/brianlovin/agent-config'
+digest = 'sha256:9e42634aa2c3428093fca290a1daaf250b0b6e3df0512e07f79ac27fa78e9460'
+
+[[skill]]
 name = 'tdd'
 source = 'https://github.com/mattpocock/skills'
 digest = 'sha256:88ffa589a2924752d86afc699b36d50900c7688095dfc8727a93e968dc45dd67'
