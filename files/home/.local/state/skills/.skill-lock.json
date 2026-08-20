@@ -8,7 +8,34 @@
       "skillPath": ".agents/skills/unslop/SKILL.md",
       "skillFolderHash": "3648e2c511b11c011896e05927561576e58e3c9d",
       "installedAt": "2026-08-20T07:26:49.675Z",
-      "updatedAt": "2026-08-20T07:26:49.675Z"
+      "updatedAt": "2026-08-20T07:43:40.367Z"
+    },
+    "brain": {
+      "source": "poteto/noodle",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/poteto/noodle.git",
+      "skillPath": ".agents/skills/brain/SKILL.md",
+      "skillFolderHash": "871da066aefab85d57c815eeadbaadf757cba11f",
+      "installedAt": "2026-08-20T07:36:22.359Z",
+      "updatedAt": "2026-08-20T07:43:35.518Z"
+    },
+    "adversarial-review": {
+      "source": "poteto/noodle",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/poteto/noodle.git",
+      "skillPath": ".agents/skills/adversarial-review/SKILL.md",
+      "skillFolderHash": "6a86d18b1bdf3fa5f1814e17e16f51e460ee2d34",
+      "installedAt": "2026-08-20T07:36:53.021Z",
+      "updatedAt": "2026-08-20T07:43:33.042Z"
+    },
+    "commit": {
+      "source": "poteto/noodle",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/poteto/noodle.git",
+      "skillPath": ".agents/skills/commit/SKILL.md",
+      "skillFolderHash": "e7d7e043fa753e2d9e5ad5c742990a894012a55c",
+      "installedAt": "2026-08-20T07:38:16.147Z",
+      "updatedAt": "2026-08-20T07:43:37.803Z"
     }
   },
   "dismissed": {}
