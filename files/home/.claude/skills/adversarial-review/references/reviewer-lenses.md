@@ -1,1 +1,0 @@
-../../../../.agents/skills/adversarial-review/references/reviewer-lenses.md
