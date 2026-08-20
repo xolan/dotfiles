@@ -1,1 +1,7 @@
-# Add entries with: xoldot alias add <name> <command>
+[[alias]]
+name = 'grep'
+command = 'grep --color=auto'
+
+[[alias]]
+name = 'ls'
+command = 'ls --color=auto'
