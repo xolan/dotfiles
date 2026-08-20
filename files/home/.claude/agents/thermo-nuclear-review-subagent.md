@@ -1,0 +1,1 @@
+../../.agents/skills/thermos/.xoldot-agents/thermo-nuclear-review-subagent.md
