@@ -1,0 +1,15 @@
+{
+  "version": 3,
+  "skills": {
+    "unslop": {
+      "source": "poteto/noodle",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/poteto/noodle.git",
+      "skillPath": ".agents/skills/unslop/SKILL.md",
+      "skillFolderHash": "3648e2c511b11c011896e05927561576e58e3c9d",
+      "installedAt": "2026-08-20T07:26:49.675Z",
+      "updatedAt": "2026-08-20T07:26:49.675Z"
+    }
+  },
+  "dismissed": {}
+}

@@ -1,0 +1,4 @@
+[[skill]]
+name = 'unslop'
+source = 'https://github.com/poteto/noodle'
+digest = 'sha256:ac8c67f80aeb96c93370058160ba7a3814cfd19f9a80bd0e4fc7d630881ce1bd'

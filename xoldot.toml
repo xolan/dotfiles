@@ -1,0 +1,8 @@
+[[git]]
+enabled = true
+remote = 'origin'
+branch = 'main'
+
+[[aliases]]
+dir = '~/.aliases'
+shells = ['bash', 'zsh', 'fish']
