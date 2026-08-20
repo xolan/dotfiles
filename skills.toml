@@ -106,7 +106,8 @@ digest = 'sha256:d4d0946fac8125fbfab69073d8c202550fb58b4cd0736836a0adecb65a3637f
 [[skill]]
 name = 'thermo-nuclear-code-quality-review'
 source = 'https://github.com/poteto/plugins'
-digest = 'sha256:a9a81c03cbdb8b74230b432aa645b5b0958e84930d2cd5657a240b9bd01fc851'
+digest = 'sha256:d842b5e7e81dd2437a369a70af234ba28db4eceb2e540b38c09479229d9db250'
+agents = ['thermo-nuclear-code-quality-review.md']
 
 [[skill]]
 name = 'thermo-nuclear-review'
@@ -116,7 +117,8 @@ digest = 'sha256:ba7ae85d14e9b613dadee81d8eec4405161a58643a50e744580532bead7160f
 [[skill]]
 name = 'thermos'
 source = 'https://github.com/poteto/plugins'
-digest = 'sha256:55cac6c04923dbf53c194703fa488f9cff4f9f4144b8f8a7f407506fa1390986'
+digest = 'sha256:60575a96a9b8856b47489a65b1a6386941c9eab7b3c803c78ddc706cfac618e4'
+agents = ['thermo-nuclear-code-quality-review-subagent.md', 'thermo-nuclear-review-subagent.md']
 
 [[skill]]
 name = 'to-questionnaire'

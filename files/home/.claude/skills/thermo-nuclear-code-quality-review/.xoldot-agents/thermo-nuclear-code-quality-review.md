@@ -1,1 +1,0 @@
-../../../../.agents/skills/thermo-nuclear-code-quality-review/.xoldot-agents/thermo-nuclear-code-quality-review.md
