@@ -1,0 +1,1 @@
+../../../../.agents/skills/interrogate/references/rubric.md

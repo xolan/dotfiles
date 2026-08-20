@@ -1,0 +1,1 @@
+../../../../.agents/skills/why/references/synthesizer-prompt.md

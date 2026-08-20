@@ -1,0 +1,1 @@
+../../../.agents/skills/domain-modeling/CONTEXT-FORMAT.md

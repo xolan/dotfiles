@@ -1,1 +1,169 @@
-skill = []
+[[skill]]
+name = 'code-review'
+source = 'https://github.com/mattpocock/skills'
+digest = 'sha256:e99e1d4580ab01184a7b50fd6610b9695486e44f7e2aae24f760a401df3c9bb7'
+
+[[skill]]
+name = 'codebase-design'
+source = 'https://github.com/mattpocock/skills'
+digest = 'sha256:52e70ee1acce8666e7d2d96f75358c7418299b3cee6c861e1338e28589798a0d'
+
+[[skill]]
+name = 'deslop'
+source = 'https://github.com/poteto/plugins'
+digest = 'sha256:c7db3b3f7223fc7b67ec235e272d683b5c6f1fbcd1735ee50e5f33f665bc8433'
+
+[[skill]]
+name = 'diagnosing-bugs'
+source = 'https://github.com/mattpocock/skills'
+digest = 'sha256:a2058478b3af2002b9524b997b850a067b08b9dfdf94488d4b62f3b28129bdae'
+
+[[skill]]
+name = 'domain-modeling'
+source = 'https://github.com/mattpocock/skills'
+digest = 'sha256:828813323b164186f09c2aa42fddf6f4601b918c424ca4c4db3c20c0a252a91f'
+
+[[skill]]
+name = 'grill-me'
+source = 'https://github.com/mattpocock/skills'
+digest = 'sha256:78e8e67eccb12e26ba3e609b07cce82f5e3c7fd3d579742656d60edae7da6739'
+
+[[skill]]
+name = 'grill-with-docs'
+source = 'https://github.com/mattpocock/skills'
+digest = 'sha256:b24aa81332a5912b3fa6fada916530750c8ec2444749c453c87f2e9a0510c5ab'
+
+[[skill]]
+name = 'grilling'
+source = 'https://github.com/mattpocock/skills'
+digest = 'sha256:16c8871a99e111a9b2ad295dded50ef805dac9850134e0f25e4efc906f5126ea'
+
+[[skill]]
+name = 'handoff'
+source = 'https://github.com/mattpocock/skills'
+digest = 'sha256:34777bafa22799cb44ac89dcd4e1003b708c4648373e19b6622e4f9cc7e11b26'
+
+[[skill]]
+name = 'how'
+source = 'https://github.com/poteto/plugins'
+digest = 'sha256:df1d171d29e5c7bd08d5231848a4df2ca4b62dbb7cd053078e0098f7bf8c1139'
+
+[[skill]]
+name = 'implement'
+source = 'https://github.com/mattpocock/skills'
+digest = 'sha256:e88977d032eaa54a9ac53e73a20ae7a697ce9cc08ad20e5f4574c0199dbaba9d'
+
+[[skill]]
+name = 'improve-codebase-architecture'
+source = 'https://github.com/mattpocock/skills'
+digest = 'sha256:2de2d3a94e09735dad397923d93187eeec440ff16ec7cc557b74562c67d39997'
+
+[[skill]]
+name = 'interrogate'
+source = 'https://github.com/poteto/plugins'
+digest = 'sha256:4fee554c50c0417d85a3b2d63daad22686ebed341f8ddb6aead03368eafcaa47'
+
+[[skill]]
+name = 'make-pr-easy-to-review'
+source = 'https://github.com/poteto/plugins'
+digest = 'sha256:cc1dca7fddcf0cfce9b0581ad7ec03d485960570ea1c5a7915d52b3ac4656ea6'
+
+[[skill]]
+name = 'prototype'
+source = 'https://github.com/mattpocock/skills'
+digest = 'sha256:52a2e86986d41fcf398f6c5ba5089db2f61261684e7a43f0a50bdd76d8d87afe'
+
+[[skill]]
+name = 'research'
+source = 'https://github.com/mattpocock/skills'
+digest = 'sha256:54ad9f1bb001fe69921560e5dff5def8104e09d29ffaa04199d4d9f910f94a7b'
+
+[[skill]]
+name = 'resolving-merge-conflicts'
+source = 'https://github.com/mattpocock/skills'
+digest = 'sha256:5858edbc4a72d4ebf3c7e387fc06273b512dc83bac7978d457fa08b9a94ef8e5'
+
+[[skill]]
+name = 'setup-matt-pocock-skills'
+source = 'https://github.com/mattpocock/skills'
+digest = 'sha256:80e579d089110dd3e3ebf4687c5acdf4181644b514a407888ab7777366f85045'
+
+[[skill]]
+name = 'tdd'
+source = 'https://github.com/mattpocock/skills'
+digest = 'sha256:88ffa589a2924752d86afc699b36d50900c7688095dfc8727a93e968dc45dd67'
+
+[[skill]]
+name = 'teach'
+source = 'https://github.com/mattpocock/skills'
+digest = 'sha256:d4d0946fac8125fbfab69073d8c202550fb58b4cd0736836a0adecb65a3637f4'
+
+[[skill]]
+name = 'thermo-nuclear-code-quality-review'
+source = 'https://github.com/poteto/plugins'
+digest = 'sha256:5dc99302dfa0c8418a336cdf90a58bcb17f16eef821ab135c20fb14946b3ee9a'
+
+[[skill]]
+name = 'thermo-nuclear-review'
+source = 'https://github.com/poteto/plugins'
+digest = 'sha256:ba7ae85d14e9b613dadee81d8eec4405161a58643a50e744580532bead7160f3'
+
+[[skill]]
+name = 'thermos'
+source = 'https://github.com/poteto/plugins'
+digest = 'sha256:626a680eec442939476012d3fefd259ed398a2bcb0c4ba3c7e444eb5aa422622'
+
+[[skill]]
+name = 'to-questionnaire'
+source = 'https://github.com/mattpocock/skills'
+digest = 'sha256:5001fbade2816c8dd7d39e1071d7f6fc424140282ccc5beba1407e9d51abef53'
+
+[[skill]]
+name = 'to-spec'
+source = 'https://github.com/mattpocock/skills'
+digest = 'sha256:1707176ceac69f581ae172d057a0585d7627491d4677f4daebddceb5d6e19082'
+
+[[skill]]
+name = 'to-tickets'
+source = 'https://github.com/mattpocock/skills'
+digest = 'sha256:473520a6cbb095a82c5e5085ae527afd3577180494dce1c27424be2bd98c9dee'
+
+[[skill]]
+name = 'triage'
+source = 'https://github.com/mattpocock/skills'
+digest = 'sha256:5ba3211cb29095e5318e96b73d15aa293da75b0519a86ab72613e741474fd97a'
+
+[[skill]]
+name = 'unslop'
+source = 'https://github.com/poteto/plugins'
+digest = 'sha256:3913696ebaaa3574440917d197f7ed864075b52499f25101f4ec9f16c96549b6'
+
+[[skill]]
+name = 'verify-this'
+source = 'https://github.com/poteto/plugins'
+digest = 'sha256:d67f97811bf31400b589ad6cddbb2145a8967bc37f6faa46f1fe756c5a1c901d'
+
+[[skill]]
+name = 'wait-what'
+source = 'https://github.com/mattpocock/skills'
+digest = 'sha256:f2286f7477fa422d4ed0bf43effce5864b8ba36a69d901d35e59bed033092c1c'
+
+[[skill]]
+name = 'wayfinder'
+source = 'https://github.com/mattpocock/skills'
+digest = 'sha256:ff7b05e2ec715ba7cd9e826eddddf306fb10dc51efbf7d577a61185606cb975a'
+
+[[skill]]
+name = 'why'
+source = 'https://github.com/poteto/plugins'
+digest = 'sha256:1193093e2bd1fa0b50d2682e024193378d5d3fcbf5a4b73968df2d419f053f31'
+
+[[skill]]
+name = 'wizard'
+source = 'https://github.com/mattpocock/skills'
+digest = 'sha256:258947474800faede4c642dfd0ea49d1c32a5deb88dae666bbcdd4c7485e606b'
+
+[[skill]]
+name = 'writing-for-agents'
+source = 'https://github.com/mattpocock/skills'
+digest = 'sha256:41b9b13ae810ccdfff5945ad26af2120699db5b871ee814360b6576791ed3df3'

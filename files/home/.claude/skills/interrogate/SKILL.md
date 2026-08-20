@@ -1,0 +1,1 @@
+../../../.agents/skills/interrogate/SKILL.md
