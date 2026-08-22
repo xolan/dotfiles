@@ -3,5 +3,13 @@ name = 'grep'
 command = 'grep --color=auto'
 
 [[alias]]
+name = 'l'
+command = 'eza -l'
+
+[[alias]]
+name = 'll'
+command = 'l -a'
+
+[[alias]]
 name = 'ls'
 command = 'ls --color=auto'
