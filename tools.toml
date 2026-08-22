@@ -1,1 +1,9 @@
-# Add entries with: xoldot tool add <name>
+[[tool]]
+name = 'eza'
+check = "command -v 'eza'"
+
+[tool.install]
+macos = ''
+
+[tool.install.linux]
+default = 'sudo apt install eza'
