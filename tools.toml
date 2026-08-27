@@ -7,6 +7,7 @@ macos = ''
 
 [tool.install.linux]
 default = 'sudo apt install eza'
+arch = "yay -S eza"
 
 [[tool]]
 name = 'tig'
@@ -17,3 +18,4 @@ macos = ''
 
 [tool.install.linux]
 default = 'sudo apt install tig'
+arch = "yay -S tig"
