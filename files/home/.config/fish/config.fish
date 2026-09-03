@@ -1,14 +1,23 @@
-set fish_greeting
-
-fish_add_path -g $HOME/.local/bin
-fish_add_path -g $HOME/.cargo/bin/
-fish_add_path -g $HOME/.bun/bin
-source ~/.aliases/alias.fish
-
-export SSH_AUTH_SOCK=$XDG_RUNTIME_DIR/ssh-agent.socket
-
-eval "$(/usr/bin/mise activate fish)"
-
 if status is-interactive
-# Commands to run in interactive sessions can go here
+    # No greeting
+    set fish_greeting
+
+    # Use starship prompt
+    if command -v starship &>/dev/null
+        starship init fish | source
+    end
+
+    # Apply terminal color sequences (Material You from wallpaper)
+    if test -f ~/.local/state/quickshell/user/generated/terminal/sequences.txt
+        cat ~/.local/state/quickshell/user/generated/terminal/sequences.txt
+    end
+
+    # Aliases
+    alias clear "printf '\033[2J\033[3J\033[1;1H'" # fix: kitty doesn't clear scrollback properly
+    alias celar "printf '\033[2J\033[3J\033[1;1H'"
+    alias claer "printf '\033[2J\033[3J\033[1;1H'"
+    if command -v eza &>/dev/null
+        alias ls 'eza --icons=auto'
+    end
+    alias q 'inir run'
 end

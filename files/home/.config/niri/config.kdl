@@ -2,11 +2,16 @@ spawn-at-startup "noctalia"
 
 window-rule {
   // Rounded corners for a modern look.
-  geometry-corner-radius 20
+  geometry-corner-radius 0
 
   // Clips window contents to the rounded corner boundaries.
   clip-to-geometry true
 }
+
+layout {
+  gaps 4
+}
+
 
 // Floating Noctalia settings window.
 window-rule {
@@ -214,3 +219,5 @@ binds {
     // moving the mouse or pressing any other key.
     Mod+Shift+P { power-off-monitors; }
 }
+
+include "noctalia.kdl"
