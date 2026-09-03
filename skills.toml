@@ -1,4 +1,9 @@
 [[skill]]
+name = 'ask-matt'
+source = 'https://github.com/mattpocock/skills'
+digest = 'sha256:1010ddfa07fc2c482c8c71c4b5eb9c7bbff40dd905d3da7b4a5c60fb231cd558'
+
+[[skill]]
 name = 'code-review'
 source = 'https://github.com/mattpocock/skills'
 digest = 'sha256:e99e1d4580ab01184a7b50fd6610b9695486e44f7e2aae24f760a401df3c9bb7'
