@@ -6,8 +6,19 @@ check = "command -v 'eza'"
 macos = ''
 
 [tool.install.linux]
+arch = 'yay -S eza'
 default = 'sudo apt install eza'
-arch = "yay -S eza"
+
+[[tool]]
+name = 'shellcheck'
+check = "command -v 'shellcheck'"
+
+[tool.install]
+macos = ''
+
+[tool.install.linux]
+arch = 'yay -S shellcheck'
+default = ''
 
 [[tool]]
 name = 'tig'
@@ -17,5 +28,5 @@ check = "command -v 'tig'"
 macos = ''
 
 [tool.install.linux]
+arch = 'yay -S tig'
 default = 'sudo apt install tig'
-arch = "yay -S tig"
