@@ -4,7 +4,7 @@
 git fetch --prune
 
 # 2. Loop and remove worktrees that no longer have a remote tracking branch
-git worktree list --porcelain | while read –r line; do
+git worktree list --porcelain | while read -r line; do
     if [[ $line =~ ^worktree[[:space:]](.+) ]]; then
         wt_path="${BASH_REMATCH[1]}"
     elif [[ $line =~ ^branch[[:space:]]refs/heads/(.+) ]]; then
