@@ -1,3 +1,5 @@
+source /usr/share/cachyos-fish-config/cachyos-config.fish
+
 if status is-interactive
     # No greeting
     set fish_greeting
