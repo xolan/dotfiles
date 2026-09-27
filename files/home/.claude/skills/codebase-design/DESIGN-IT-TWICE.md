@@ -1,1 +1,0 @@
-../../../.agents/skills/codebase-design/DESIGN-IT-TWICE.md

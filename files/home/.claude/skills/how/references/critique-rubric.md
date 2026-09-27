@@ -1,1 +1,0 @@
-../../../../.agents/skills/how/references/critique-rubric.md

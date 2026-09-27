@@ -1,1 +1,0 @@
-../../../.agents/skills/resolving-merge-conflicts/SKILL.md

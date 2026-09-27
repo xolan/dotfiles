@@ -1,1 +1,0 @@
-../../../../.agents/skills/how/references/explorer-prompt.md

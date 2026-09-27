@@ -1,1 +1,0 @@
-../../../../.agents/skills/how/references/critic-prompt.md

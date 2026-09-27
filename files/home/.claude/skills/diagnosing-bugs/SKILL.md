@@ -1,1 +1,0 @@
-../../../.agents/skills/diagnosing-bugs/SKILL.md

@@ -1,1 +1,0 @@
-../../../.agents/skills/why/SKILL.md

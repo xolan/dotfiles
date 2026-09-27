@@ -1,1 +1,0 @@
-../../../../../.agents/skills/why/references/sources/linear.md

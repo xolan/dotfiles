@@ -1,1 +1,0 @@
-../../../.agents/skills/make-pr-easy-to-review/SKILL.md
