@@ -1,5 +1,14 @@
 source /usr/share/cachyos-fish-config/cachyos-config.fish
 
+# Use the systemd user ssh-agent (see ~/.config/environment.d/ssh-agent.conf)
+set -gx SSH_AUTH_SOCK $XDG_RUNTIME_DIR/ssh-agent.socket
+
+# Tell Git and SSH to use KDE's password prompt
+set -gx SSH_ASKPASS /usr/bin/ksshaskpass
+set -gx SSH_ASKPASS_REQUIRE prefer
+set -gx GIT_ASKPASS /usr/bin/ksshaskpass
+
+
 if status is-interactive
     # No greeting
     set fish_greeting
